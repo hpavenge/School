@@ -1,4 +1,4 @@
-package com.example.nbsm.headfirstoop.Domain.Enum;
+package com.example.nbsm.headfirstoop.ChapterOne.Domain.Enum;
 
 /**
  * Created by nbsm on 18-11-2016.

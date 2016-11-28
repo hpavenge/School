@@ -1,6 +1,4 @@
-package com.example.nbsm.headfirstoop.Domain.Model;
-
-import com.example.nbsm.headfirstoop.Domain.Enum.Type;
+package com.example.nbsm.headfirstoop.ChapterOne.Domain.Model;
 
 /**
  * Created by nbsm on 18-11-2016.

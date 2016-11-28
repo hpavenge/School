@@ -1,10 +1,9 @@
-package com.example.nbsm.headfirstoop.Domain.Model;
+package com.example.nbsm.headfirstoop.ChapterOne.Domain.Model;
 
-import com.example.nbsm.headfirstoop.Domain.Enum.Type;
-import com.example.nbsm.headfirstoop.Domain.Enum.Weight;
+import com.example.nbsm.headfirstoop.ChapterOne.Domain.Enum.Type;
+import com.example.nbsm.headfirstoop.ChapterOne.Domain.Enum.Weight;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
