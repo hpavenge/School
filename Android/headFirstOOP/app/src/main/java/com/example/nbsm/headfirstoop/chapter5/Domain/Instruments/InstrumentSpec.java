@@ -1,36 +1,38 @@
-package com.example.nbsm.headfirstoop.chapter5.Guitar;
+package com.example.nbsm.headfirstoop.chapter5.Domain.Instruments;
 
-import com.example.nbsm.headfirstoop.chapter5.Guitar.Enums.Builder;
-import com.example.nbsm.headfirstoop.chapter5.Guitar.Enums.Type;
-import com.example.nbsm.headfirstoop.chapter5.Guitar.Enums.Wood;
+import com.example.nbsm.headfirstoop.chapter5.Domain.Instruments.Enums.Builder;
+import com.example.nbsm.headfirstoop.chapter5.Domain.Instruments.Enums.Type;
+import com.example.nbsm.headfirstoop.chapter5.Domain.Instruments.Enums.Wood;
 
 /**
- * Created by nbsm on 24-11-2016.
+ * Created by nbsm on 30-11-2016.
  */
 
-public class GuitarSpec {
+public abstract class InstrumentSpec {
+    private Builder builder;
     private String model;
-    private int numStrings;
+    private Type type;
     private Wood backWood;
     private Wood topWood;
-    private Type type;
-    private Builder builder;
 
-    public GuitarSpec(String model, int numStrings, Wood backWood, Wood topWood, Type type, Builder builder) {
+    public InstrumentSpec(String model, Wood backWood, Wood topWood, Type type, Builder builder) {
         this.model = model;
-        this.numStrings = numStrings;
         this.backWood = backWood;
         this.topWood = topWood;
         this.type = type;
         this.builder = builder;
     }
 
+    public Builder getBuilder() {
+        return builder;
+    }
+
     public String getModel() {
         return model;
     }
 
-    public int getNumStrings() {
-        return numStrings;
+    public Type getType() {
+        return type;
     }
 
     public Wood getBackWood() {
@@ -41,19 +43,8 @@ public class GuitarSpec {
         return topWood;
     }
 
-    public Type getType() {
-        return type;
-    }
-
-    public Builder getBuilder() {
-        return builder;
-    }
-
-    public boolean matches(GuitarSpec otherSpec){
+    public boolean matches(InstrumentSpec otherSpec){
         if (model != otherSpec.model){
-            return false;
-        }
-        if (numStrings != otherSpec.numStrings){
             return false;
         }
         if (backWood != otherSpec.backWood){
@@ -71,4 +62,5 @@ public class GuitarSpec {
         // everything matched
         return true;
     }
+
 }

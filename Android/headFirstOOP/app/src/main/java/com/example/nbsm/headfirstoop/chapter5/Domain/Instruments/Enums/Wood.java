@@ -1,4 +1,4 @@
-package com.example.nbsm.headfirstoop.chapter5.Guitar.Enums;
+package com.example.nbsm.headfirstoop.chapter5.Domain.Instruments.Enums;
 
 /**
  * Created by nbsm on 24-11-2016.
