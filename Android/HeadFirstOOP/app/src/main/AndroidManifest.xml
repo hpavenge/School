@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ChapterTwoThree.Presentation.DogDoorSimulator"></activity>
         <activity android:name=".Chapter4Test.TestDogDoorSimulator"></activity>
-        <activity android:name=".chapter5.ShopSimulator">
+        <activity android:name=".chapter5PartTwo.chapter5.ShopSimulator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,5 +18,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
