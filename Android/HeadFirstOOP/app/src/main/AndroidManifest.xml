@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChapterTwoThree.Presentation.DogDoorSimulator"></activity>
-        <activity android:name=".Chapter4Test.TestDogDoorSimulator"></activity>
+        <activity android:name=".ChapterTwoThree.Presentation.DogDoorSimulator" />
+        <activity android:name=".Chapter4Test.TestDogDoorSimulator" />
         <activity android:name=".chapter5PartTwo.chapter5.ShopSimulator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,5 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".chapter7.architectureMain"></activity>
     </application>
+
 </manifest>
