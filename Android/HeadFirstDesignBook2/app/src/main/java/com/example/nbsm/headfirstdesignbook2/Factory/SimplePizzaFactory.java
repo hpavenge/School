@@ -10,14 +10,14 @@ import com.example.nbsm.headfirstdesignbook2.Model.Pizza.Pizza;
 
 public class SimplePizzaFactory {
 
-    public Pizza createPizza(String type){
-        Pizza pizza = null;
-        if(type.equals("cheese")){
-            pizza = new CheesePizza();
-        }
-        else if(type.equals("greek")){
-            pizza = new GreekPizza();
-        }
-        return pizza;
-    }
+//    public Pizza createPizza(String type){
+//        Pizza pizza = null;
+//        if(type.equals("cheese")){
+//            pizza = new CheesePizza();
+//        }
+//        else if(type.equals("greek")){
+//            pizza = new GreekPizza();
+//        }
+//        return pizza;
+//    }
 }
