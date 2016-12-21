@@ -13,6 +13,9 @@ public class PizzaMain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pizza_main);
+        PizzaStore nyPizzaStory = new NyPizzaStore();
+
+        nyPizzaStory.orderPizza("cheese");
     }
 
 }

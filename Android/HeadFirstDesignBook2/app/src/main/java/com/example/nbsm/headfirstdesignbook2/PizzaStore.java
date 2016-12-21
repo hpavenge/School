@@ -17,8 +17,8 @@ public abstract class PizzaStore {
 
     SimplePizzaFactory simplePizzaFactory;
 
-    public PizzaStore(SimplePizzaFactory simplePizzaFactory){
-        this.simplePizzaFactory = simplePizzaFactory;
+    public PizzaStore(){
+
     }
 
     // first one
@@ -64,7 +64,6 @@ public abstract class PizzaStore {
 
         //EVOLUTION
         pizza = createPizza(type);
-        pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
