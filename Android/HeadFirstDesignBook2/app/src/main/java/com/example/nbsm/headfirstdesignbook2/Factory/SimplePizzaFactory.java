@@ -1,4 +1,4 @@
-package com.example.nbsm.headfirstdesignbook2;
+package com.example.nbsm.headfirstdesignbook2.Factory;
 
 import com.example.nbsm.headfirstdesignbook2.Model.Pizza.CheesePizza;
 import com.example.nbsm.headfirstdesignbook2.Model.Pizza.GreekPizza;
