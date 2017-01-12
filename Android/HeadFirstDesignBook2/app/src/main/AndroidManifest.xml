@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".chapt7AdapterPattern.TurkeyAdapterMain" />
-        <activity android:name=".chapt7FacadePatternHometheater.HomeTheaterMain"></activity>
+        <activity android:name=".chapt7FacadePatternHometheater.HomeTheaterMain" />
+        <activity android:name=".chapt8EncapAlgorithmsTemplatePattern.TemplatePatternMain"></activity>
     </application>
 
 </manifest>
